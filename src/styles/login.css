@@ -1,0 +1,33 @@
+/*estilo para formularios- login, agregar producto,*/
+
+.login-card,
+.register-card {
+  background: linear-gradient(45deg, #edaeed 2%, #cb79e0 44%, #9179f0 100%);
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  color: white;
+}
+
+.login-card .card-header,
+.register-card .card-header {
+  background-color: #4f4ba1;
+  border-bottom: none;
+  border-radius: 15px 15px 0 0;
+  color: white;
+}
+
+.login-card .btn,
+.register-card .btn {
+  background-color: #4f4ba1;
+  border: none;
+}
+
+.login-card .btn:hover,
+.register-card .btn:hover {
+  background-color: #3d3a80;
+}
+
+input::placeholder {
+  color: #eee;
+}

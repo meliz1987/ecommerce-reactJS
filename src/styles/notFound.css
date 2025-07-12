@@ -1,0 +1,77 @@
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+body{
+  font-family: 'Nunito', sans-serif;
+}
+
+.notfound-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+  text-align: center;
+  animation: fadeInUp 0.8s ease-out;
+}
+
+.notfound-image {
+  max-width: 250px;
+  margin: 20px auto 0 auto;
+  display: block;
+  animation: fadeInUp 1s ease-out;
+}
+
+.btn-home {
+  border-color: #4f4ba1 !important;
+  background-color: #4f4ba1 !important;
+  color: white;
+  border: none;
+  transition: transform 0.2s ease;
+}
+
+.btn-home:hover {
+  background-color: #7b5ed0 !important;
+  transform: translateY(-2px);
+}
+
+
+.admin-welcome-card {
+  background: linear-gradient(45deg, #edaeed 2%, #cb79e0 44%, #9179f0 100%);
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  color: white;
+  max-width: 400px;
+  width: 100%;
+  animation: fadeInUp 0.8s ease-out;
+}
+
+
+.cute-title {
+  font-family: 'Pacifico', cursive;
+  font-size: 2.5rem;
+  color: #4f4ba1; 
+}
+
+.animate-icon {
+  transition: transform 0.3s ease;
+}
+
+.animate-icon:hover {
+  animation: bounce 0.6s;
+}
+
+@keyframes bounce {
+  0%   { transform: translateY(0); }
+  30%  { transform: translateY(-6px); }
+  60%  { transform: translateY(4px); }
+  100% { transform: translateY(0); }
+}

@@ -1,0 +1,51 @@
+.footer-container {
+  background-color: #4f4ba1;
+  color: white;
+  padding: 2.5rem 1rem;
+  font-family: 'Nunito', sans-serif; 
+  font-size:smaller;
+}
+
+.footer-container h5 {
+  color: #e180d3;
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+.footer-links {
+  list-style: none;
+  padding-left: 0;
+  
+}
+
+.footer-links li {
+  margin-bottom: 0.5rem;
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: white;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+  color: #f2a7e9;
+}
+
+.social-icons a {
+  font-size: 1.8rem;     
+  color: white;    
+  margin-right: 1rem;
+  transition: color 0.3s;
+}
+
+.social-icons a:hover {
+  color: #f2a7e9;
+}
+
+.footer-copy {
+  font-size: 0.9rem;
+  margin-top: 1rem;
+  color: #ddd;
+}
+

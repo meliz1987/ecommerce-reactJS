@@ -1,0 +1,143 @@
+.cart-container{  /* va a ser el div class que va a contener a todas las tarjetas. */
+    padding:3px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    height: max-content ;
+    margin-top:8px;
+    align-items: center;
+    gap: 1rem;    
+}
+
+.cart-card{
+  /* margin: 4px;
+    padding-bottom:2%;
+    padding-top:1%;
+    background-color: #F3ECFF;
+    border: 1px #D9CDEE;
+    border-radius: 6px;
+    width:85%;
+    text-align: justify;
+    display: felx;*/
+     border: solid;
+    border-color: black;
+    display: flex;
+    flex-direction: row;
+    align-items: justify;
+    justify-content: space-between;
+    background-color: #dab5f8;
+    border: 1px #D9CDEE;
+    border-radius: 8px;
+    width: 77%;
+    text-align: center;
+    height: 100px;
+    margin:2px;
+    padding:6px;
+ }
+
+.cart-image{
+    width: 70px;
+    height: 70px;
+    border-radius: 10% ;
+
+}
+
+.cart-title{
+    display: flex;
+    align-items: justify;
+    justify-content: space-between;
+    height: 3%;
+    width: 80%;
+}
+
+.cart-title-product{
+    width: 20%;
+    text-align:justify;
+}
+
+.cart-title-description{
+    width: 30%;
+}
+
+.cart-product{
+    width: 40%;
+    text-align: left;
+}
+
+.cart-description{
+    width: 30%;
+}
+.cart-unit,.cart-sub,.cart-quantity{
+    width: 30%;
+    text-align: right;
+}
+
+
+.button-cart {
+    width: 4em;
+    height: 3em;
+    text-align: center;
+    margin: 3%;
+}
+
+.cartSpan{
+    font-weight: bold;
+    color:#3b1172;
+    padding: 6%;
+    font-size:large;
+    animation: fadeInUp 0.8s ease-out;
+
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.not-logged-container {
+    background: linear-gradient(45deg, #eab9ea 2%, #ce85e0 44%, #9a85f0 100%);
+ /* background-color: #e1ccf8; */
+  padding: 40px;
+  border-radius: 15px;
+  max-width: 500px;
+  margin: 60px auto;
+  box-shadow: 0 4px 10px #af9bd74d;
+  text-align: center;
+  animation: fadeInUp 0.6s ease-out;
+}
+
+.btn-custom {
+  border-color: #4f4ba1 !important;
+  background-color: transparent;
+  color: #fff !important;
+  font-weight: 500 bold;
+  transition: all 0.3s ease;
+}
+
+.btn-custom:hover {
+  background-color: #4f4ba1 !important;
+  color: #fff !important;
+}
+
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-8px);
+  }
+}
+
+.bounce-icon {
+  animation: bounce 1s infinite;
+  font-size: 40px;
+  color: #4f4ba1;
+  margin-bottom: 15px;
+}

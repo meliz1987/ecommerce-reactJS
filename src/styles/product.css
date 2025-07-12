@@ -1,0 +1,126 @@
+
+h1{
+    color:#630f89;
+    font-size: 1.5rem;
+}
+
+.products-container{  /* va a ser el div class que va a contener a todas las tarjetas. */
+    padding:5px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+     font-family: 'Nunito', sans-serif,bold;
+}
+
+.product-card{
+    margin: 4px;
+    padding-bottom:5%;
+    padding-top:2%;
+    background-color: #dab5f8;
+    border: 1px #D9CDEE;
+    border-radius: 6px;
+    width:90%;
+    max-width: 350px;
+    text-align: center;
+}
+
+.product-image{
+  border-radius: 10%;
+  width: 80%;
+  max-width: 200px;
+  display: block;
+  margin: 0 auto;
+  
+}
+
+.loading-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 60%; 
+}
+
+.loading-gif {
+  width: 150px; 
+  height: auto;
+  margin-bottom: 20px;
+}
+
+h3{
+    color:#630f89;
+}
+
+input.form-control {
+ /* max-width: 400px;
+  border-radius: 20px;*/
+}
+
+/* Animación de entrada suave */
+@keyframes fadeInSlide {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.search-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  animation: fadeInSlide 0.6s ease-out;
+}
+
+.product-search-input {
+  max-width: 400px;
+  width: 100%;
+  padding: 10px 40px 10px 20px;
+  border-radius: 20px;
+  border: 2px solid #d485e8;
+  box-shadow: 0 4px 8px rgba(111, 87, 207, 0.1);
+  background-color: #fff0fb;
+  color: #4f4ba1;
+  transition: all 0.3s ease-in-out;
+}
+
+.product-search-input:focus {
+  border-color: #6f57cf;
+  box-shadow: 0 0 10px rgba(223, 153, 255, 0.6);
+  outline: none;
+}
+
+.search-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  animation: fadeInSlide 0.6s ease-out;
+}
+
+/* Botón paginador activo */
+.btn-pag-active {
+  background-color: #6f57cf !important; /* violeta sólido */
+  border-color: #6f57cf !important;
+  color: white !important;
+  box-shadow: 0 0 5px #6f57cf;
+}
+
+/* Botón paginador inactivo */
+.btn-pag-inactive {
+  background-color: white;
+  border: 1px solid #b39ddb;
+  color: #6f57cf;
+}
+
+.btn-pag-inactive:hover {
+  background-color: #d1c4e9;
+  border-color: #6f57cf;
+  color: #4f4ba1;
+  cursor: pointer;
+}
