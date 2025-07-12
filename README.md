@@ -10,6 +10,7 @@ Es una tienda online funcional con autenticación, carrito de compras y panel de
 - **MockAPI** para visualizacion de  productos  y edición de los mismos(modo administrador)
 - **React Router DOM**
 - **Context API** para manejo global del carrito y autenticación
+- **React Helmet** para la mejorar el SEO
 
 ## Funcionalidades principales
 - Registro e inicio de sesión de usuarios con dominio @gmail.com (Firebase)
